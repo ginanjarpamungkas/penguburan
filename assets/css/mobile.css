@@ -1,0 +1,55 @@
+@media only screen and (max-width:550px){
+	.hide-desktop {display:block}
+	header img.logo {width: 30%;}
+	.header-bottom, .content {padding: 0 5%;}
+	.content-other{padding: 5vh 1vh !important;}
+    .letter-container {padding: 10vh 0;}
+    .letter-content {padding: 0 10px}
+	.letter-teks {background-color:#fff;padding: 20px;}
+	.images-container {width: 100%;}
+	.letter-content p {color:#000}
+	.header-title h1 {font-size: 25pt;}
+	.header-bottom ul li{flex-basis: 100%;margin: 10pt auto;}
+	.video-container {height: 50vh;padding: 5vh 0 !important;}
+	.video-container iframe {height: 40vh;top:5vh;width: 100%}
+	figcaption.video{width: 90%}
+	#right-content-trigger figcaption{padding: 0 5%}
+	p.soundcite-text{background-color: #fff}
+	.chart{position: relative;}
+	div.d3-tooltip {max-width: unset;width: auto;top:100% !important;left: 0 !important;right: 0;}
+    footer .footer-wrapper {padding: 0;}
+    footer .footer-wrapper .conde-links{display: grid;grid-template-columns: auto; grid-gap: 10px;padding: 0 25pt; justify-content: center; text-align: center;}
+	footer .conde-links .worldwide {width: 250px;margin: 0 auto;}
+	footer .component-corp-legal>div {margin-top: 10px;display: block;text-align: center;}
+	.social-media {position: unset;padding-bottom: 10pt;}
+
+	.right-content{width: calc(100% - 40.5pt);background-color: #ededed;border-left: 1px solid black;display: block;}
+	#right-content-trigger{padding:0}
+}
+@media (min-width: 700px){
+	footer .footer-wrapper {max-width: 90%;padding: 0;}
+	.component-corp-legal {margin-top: 30px;padding-top: 35px;}
+}
+@media (min-width: 550px){
+	footer .footer-wrapper .conde-links {display: -webkit-box;display: -ms-flexbox;display: flex;}
+	footer .component-corp-legal {margin-top: 50px;border-top: 1px solid #666;font-size: 13px;line-height: 18px;}
+	footer .component-corp-legal>div {margin-top: 10px;}
+	footer .component-corp-legal>div .conde-logo {margin: 0 40px 0 0;width: auto;}
+}
+@media (max-width: 1024px) and (min-width: 801px){
+	.pier h1{font-size:36px; line-height:40px; margin:15px 0;}
+	.pier h2{font-size:24px; line-height:28px; margin:15px 0;}
+	.pier h3{font-size:16px; line-height:20px; margin:15px 0;}
+	.video-container {height: 50vh;padding: 5vh;}
+	.video-container iframe {height: 40vh;}
+}
+@media (max-width: 800px){
+	.pier h1{font-size:36px; line-height:40px; margin:15px 0;}
+	.pier h2{font-size:24px; line-height:28px; margin:15px 0;}
+	.pier h3{font-size:16px; line-height:20px; margin:15px 0;}
+	.tribune-logo-shadow img{width:250px; height: auto; margin:0 auto;}
+	.video-container {height: 50vh;padding: 5vh;}
+	.video-container iframe {height: 40vh;}
+	.content-other {padding:2% 10%}
+	.content, .header-bottom {padding: 0 10%;}
+}

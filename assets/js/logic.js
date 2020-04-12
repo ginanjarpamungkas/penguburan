@@ -1,22 +1,27 @@
 let val = 0
 function changeImg() {
+    $('.img-container').css('transform','unset')
     setTimeout(function(){
-        $('#img-sholat12').attr('class','thumbs-covid slideOutRight')
-        $('#img-penguburan11').attr('class','thumbs-covid slideOutRight')
-    },2250)
-    if (val == 0) {
-        $('#img-sholat12').attr('src','assets/images/clean.png')
-        $('#img-penguburan11').attr('src','assets/images/water.png')
-        val = 1
-    } else {
-        $('#img-sholat12').attr('src','assets/images/islam.png')
-        $('#img-penguburan11').attr('src','assets/images/home.png')
-        val = 0
-    }
-    $('#img-sholat12').attr('class','thumbs-covid slideInLeft')
-    $('#img-penguburan11').attr('class','thumbs-covid slideInLeft')
+        $('.img-container').css('transform','rotateY(180deg)')
+    },3000)
+    // $('#img-sholatA').css('transform','rotateY(180deg)')
+    // setTimeout(function(){
+    //     $('#img-sholat12').attr('class','thumbs-covid slideOutRight')
+    //     $('#img-penguburan11').attr('class','thumbs-covid slideOutRight')
+    // },2250)
+    // if (val == 0) {
+    //     $('#img-sholat12').attr('src','assets/images/clean.png')
+    //     $('#img-penguburan11').attr('src','assets/images/water.png')
+    //     val = 1
+    // } else {
+    //     $('#img-sholat12').attr('src','assets/images/islam.png')
+    //     $('#img-penguburan11').attr('src','assets/images/home.png')
+    //     val = 0
+    // }
+    // $('#img-sholat12').attr('class','thumbs-covid slideInLeft')
+    // $('#img-penguburan11').attr('class','thumbs-covid slideInLeft')
 }
-setInterval(changeImg, 3000)
+setInterval(changeImg, 6000)
 $(function() {
     $('#btn-start').on('click',function() {
         $('.start').addClass('bounceOut')
